@@ -36,4 +36,3 @@ Ik heb ervoor gekozen om gecentreerde vakken te gebruiken omdat dit naar mijn id
 
 Het was voor mij op het begin gelijk duidelijk wat ik wilde maken. Een tekstblok met een button, waar als je hierop klikt er meer informatie verschijnt. De reden dat ik hiervoor heb gekozen is dat het in een overzicht gelijk duidelijk is wat er gaat gebeuren en het is een manier die door vele verhalenwebsites worden gebruikt.
 
-
