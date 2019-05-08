@@ -1,10 +1,18 @@
+body {
+    margin: 0px auto;
+}
+
+h1 {
+    font-family: 'avenir next', sans-serif;
+    font-size: 2em;
+    color: #676767;
+    background-color: #EFEFEF;
+    padding: 1em;
+}
+
 .hidden {
     padding: 0 18px;
     display: none;
-}
-
-article {
-    background-color: white;
 }
 
 article {
@@ -18,18 +26,12 @@ article {
 
 section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 img {
     width: 30em;
-}
-
-h1 {
-    font-family: 'avenir next', sans-serif;
-    font-size: 2em;
-    color: #676767;
-    background-color: #EFEFEF;
-    padding: 1em;
 }
 
 .prijs {
