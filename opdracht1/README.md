@@ -22,6 +22,8 @@ Keep users in control.
 
 Ik heb ervoor gekozen om een 'lees meer' button te gebruiken zodat de gebruiker weet dat als hij hierop klikt, er meer informatie tevoorschijn komt.
 
+![Screenshot](Schermafbeelding 2019-05-08 om 11.10.45 AM.png.png)
+
 - Strong visual hierarchies work best
 A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. That is, when users view the same items in the same order every time. Weak visual hierarchies give little clue about where to rest one's gaze and end up feeling cluttered and confusing. In environments of great change it is hard to maintain a strong visual hierarchy because visual weight is relative: when everything is bold, nothing is bold. Should a single visually heavy element be added to a screen, the designer may need to reset the visual weight of all elements to once again achieve a strong hierarchy. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design.
 
