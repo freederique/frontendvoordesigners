@@ -33,3 +33,6 @@ Voor poging twee wilde ik ervoor zorgen dat ik buttons bij mijn carousel kreeg z
 
 <img width="1678" alt="Schermafbeelding 2019-05-28 om 11 11 53 PM" src="https://user-images.githubusercontent.com/49712444/58512845-645ad100-819e-11e9-81b2-bf27aab1e981.png">
 In deze oplossing is te zien hoe de buttons in het scherm zichtbaar zijn en hoe je hiermee naar de verschillende foto's kunt gaan.
+
+Mijn HTML & CSS zien er als volgt uit:
+<img width="1679" alt="Schermafbeelding 2019-05-28 om 11 16 27 PM" src="https://user-images.githubusercontent.com/49712444/58512964-aa179980-819e-11e9-9411-a973a26851e3.png">
