@@ -25,3 +25,14 @@ Het is natuurlijk dat doordat het een gehele foto is die over de breedte van het
 
 Mijn eerste HTML/CSS poging in detail:
 <img width="1680" alt="Schermafbeelding 2019-05-28 om 10 15 28 PM" src="https://user-images.githubusercontent.com/49712444/58510116-599d3d80-8198-11e9-833a-3d56fb52d01f.png">
+
+
+## Poging 2
+
+Voor poging twee wilde ik ervoor zorgen dat ik buttons bij mijn carousel kreeg zodat ik door middel van buttons door mijn carousel heen kan gaan en dit is gelukt. Het enige wat op dit moment nog niet is gelukt is om met het toetsenbord de foto's te laten bewegen. Toch ben ik trots op deze poging omdat het er al beter uit ziet dan mijn eerste poging. Deze werkt beter.
+
+<img width="1678" alt="Schermafbeelding 2019-05-28 om 11 11 53 PM" src="https://user-images.githubusercontent.com/49712444/58512845-645ad100-819e-11e9-81b2-bf27aab1e981.png">
+In deze oplossing is te zien hoe de buttons in het scherm zichtbaar zijn en hoe je hiermee naar de verschillende foto's kunt gaan.
+
+Mijn HTML & CSS zien er als volgt uit:
+<img width="1679" alt="Schermafbeelding 2019-05-28 om 11 16 27 PM" src="https://user-images.githubusercontent.com/49712444/58512964-aa179980-819e-11e9-9411-a973a26851e3.png">
