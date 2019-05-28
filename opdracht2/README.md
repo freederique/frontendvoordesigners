@@ -36,3 +36,10 @@ In deze oplossing is te zien hoe de buttons in het scherm zichtbaar zijn en hoe 
 
 Mijn HTML & CSS zien er als volgt uit:
 <img width="1679" alt="Schermafbeelding 2019-05-28 om 11 16 27 PM" src="https://user-images.githubusercontent.com/49712444/58512964-aa179980-819e-11e9-9411-a973a26851e3.png">
+
+
+## Poging 3
+
+Ik heb mijn oude code erbij gepakt, en na het proberen met verschillende codes werken nu ook de pijltjes toetsen. De carousel is nu te bedienen met de buttons en met de pijltjestoetsen.
+
+
