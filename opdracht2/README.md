@@ -22,3 +22,6 @@ Provide a natural next step
 Very few interactions are meant to be the last, so thoughtfully design a next step for each interaction a person has with your interface. Anticipate what the next interaction should be and design to support it. Just as we like in human conversation, provide an opening for further interaction. Don't leave a person hanging because they've done what you want them to do…give them a natural next step that helps them further achieve their goals.
 
 Het is natuurlijk dat doordat het een gehele foto is die over de breedte van het scherm te zien is, je naar de volgende foto kunt gaan door met je pijltjes te bewegen.
+
+Mijn eerste HTML/CSS poging in detail:
+<img width="1680" alt="Schermafbeelding 2019-05-28 om 10 15 28 PM" src="https://user-images.githubusercontent.com/49712444/58510116-599d3d80-8198-11e9-833a-3d56fb52d01f.png">
