@@ -17,6 +17,10 @@ img {
     height: 40em;
 }
 
+header {
+    background-color: lightsteelblue;
+}
+
 form {
     padding: 2em;
 }
@@ -26,17 +30,23 @@ legend {
     padding: 1em;
 }
 
-header {
-    background-color: lightsteelblue;
+input {
+    padding: 1em;
+}
+
+label {
+    padding: 1em;
 }
 
 #search-by-title-reset {
     background-color: darkblue;
     color: white;
     border-radius: 2em;
+    padding: 1em;
 }
 
 #search-by-title-button {
     background-color: lightblue;
     border-radius: 2em;
+    padding: 1em;
 }
