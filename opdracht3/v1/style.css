@@ -1,0 +1,42 @@
+* {
+    font-family: 'avenir', arial, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+header p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+img {
+    height: 40em;
+}
+
+form {
+    padding: 2em;
+}
+
+legend {
+    font-size: 2em;
+    padding: 1em;
+}
+
+header {
+    background-color: lightsteelblue;
+}
+
+#search-by-title-reset {
+    background-color: darkblue;
+    color: white;
+    border-radius: 2em;
+}
+
+#search-by-title-button {
+    background-color: lightblue;
+    border-radius: 2em;
+}

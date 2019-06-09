@@ -1,15 +1,105 @@
 <html>
-  <head>
+
+<head>
     <title>FvD - Opdracht 3 - Complexe functionaliteit met externe data uitwerken en testen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <form class="well form-search" id="search-by-title-form" onsubmit="return false;">
+            <fieldset>
+                <legend>By Title</legend>
+            </fieldset>
+            <div>
+                <label class="control-label" for="t">Title:</label>
+                <input type="text" id="t" name="t" class="input-small"> &nbsp;&nbsp;
+                <label class="control-label" for="y">Year:</label>
+                <input type="text" id="y" name="y" class="input-small" style="width: 100px;"> &nbsp;&nbsp;
+                <button id="search-by-title-button" type="button" class="btn-sm btn-primary">Search</button>
+                <button id="search-by-title-reset" type="reset" class="btn-sm">Reset</button>
+            </div>
+            <div class="hide" id="search-by-title-request">
+                <br />
+                <p>Request:</p>
+                <pre class="alert alert-box"><a href="javascript:;" target="_blank"></a></pre>
+            </div>
+            <div id="search-by-title-progress" class="hide progress progress-info progress-striped active">
+                <div class="progress-bar" style="width: 100%;">
+                </div>
+            </div>
+        </form>
+
+    </header>
+
     <main>
-      <h1>Films</h1>
-      <!-- Hier wordt de html geinjecteerd-->
-      <section></section>
+
+        <button class="hide">Laad alle films</button>
+        <span id="loader" class="">Laad films</span>
+        <section>
+            <article><img src="img/film1.jpg">
+                <h2>Evil Dead</h2>
+                <p>5 April 2013</p>
+                <p>Horror</p>
+                <p>Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.</p><button>Meer lezen</button>
+                <p>Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods. The evil presence possesses them until only one is left to fight for survival.</p>
+            </article>
+            <article><img src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg">
+                <h2>The Shawshank Redemption</h2>
+                <p>14 October 1994</p>
+                <p>Crime, Drama</p>
+                <p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p><button>Meer lezen</button>
+                <p>Andy Dufresne is a young and successful banker whose life changes drastically when he is convicted and sentenced to life imprisonment for the murder of his wife and her lover. Set in the 1940's, the film shows how Andy, with the help of his friend Red, the prison entrepreneur, turns out to be a most unconventional prisoner. Written by Martin Lewison</p>
+            </article>
+            <article><img src="img/film3.jpg">
+                <h2>The Godfather</h2>
+                <p>24 March 1972</p>
+                <p>Crime, Drama</p>
+                <p>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</p><button>Meer lezen</button>
+                <p>The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding with his wife Carmela. His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. Through Michael's life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, but given to ruthless violence whenever anything stands against the good of the family. Don Vito lives his life in the way of the old country, but times are changing and some don't want to follow the old ways and look out for community and family. An up and coming rival of the Corleone family wants to start selling drugs in New York, and needs the Don's influence to further his plan. The clash of the Don's fading old world values and the new ways will demand a terrible price, especially from Michael, all for the sake of the family.</p>
+            </article>
+            <article><img src="https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,686,1000_AL_.jpg">
+                <h2>Pulp Fiction</h2>
+                <p>14 October 1994</p>
+                <p>Crime, Drama, Thriller</p>
+                <p>The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p><button>Meer lezen</button>
+                <p>Jules Winnfield and Vincent Vega are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace. Wallace has also asked Vincent to take his wife Mia out a few days later when Wallace himself will be out of town. Butch Coolidge is an aging boxer who is paid by Wallace to lose his next fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.</p>
+            </article>
+            <article><img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg">
+                <h2>The Dark Knight</h2>
+                <p>18 July 2008</p>
+                <p>Action, Adventure</p>
+                <p>When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.</p><button>Meer lezen</button>
+                <p>Batman raises the stakes in his war on crime. With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the city streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as The Joker.</p>
+            </article>
+            <article><img src="https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,676,1000_AL_.jpg">
+                <h2>Fight Club</h2>
+                <p>15 October 1999</p>
+                <p>Drama</p>
+                <p>An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much, much more...</p><button>Meer lezen</button>
+                <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
+            </article>
+            <article><img src="img/film1.jpg">
+                <h2>Evil Dead</h2>
+                <p>5 April 2013</p>
+                <p>Horror</p>
+                <p>Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.</p><button>Meer lezen</button>
+                <p>Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods. The evil presence possesses them until only one is left to fight for survival.</p>
+            </article>
+            <article><img src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg">
+                <h2>The Shawshank Redemption</h2>
+                <p>14 October 1994</p>
+                <p>Crime, Drama</p>
+                <p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p><button>Meer lezen</button>
+                <p>Andy Dufresne is a young and successful banker whose life changes drastically when he is convicted and sentenced to life imprisonment for the murder of his wife and her lover. Set in the 1940's, the film shows how Andy, with the help of his friend Red, the prison entrepreneur, turns out to be a most unconventional prisoner. Written by Martin Lewison</p>
+            </article>
+        </section>
+
     </main>
 
-    <script src="script.js"></script>
-  </body>
+
+</body>
+
 </html>
