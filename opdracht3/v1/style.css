@@ -18,7 +18,7 @@ img {
 }
 
 header {
-    background-color: lightsteelblue;
+    background-color: #C9C9C9;
 }
 
 form {
@@ -49,4 +49,16 @@ label {
     background-color: lightblue;
     border-radius: 2em;
     padding: 1em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    margin: 2em;
+}
+
+article {
+    padding: 1em;
+    margin: 1em;
 }

@@ -49,10 +49,10 @@ function showData(jsonObj) {
         filmjaar.textContent = films.Search[i].Year;
 
 
-        article.appendChild(filmposter);
         article.appendChild(filmtitel);
         article.appendChild(filmtype);
         article.appendChild(filmjaar);
+        article.appendChild(filmposter);
         section.appendChild(article);
     }
 }
