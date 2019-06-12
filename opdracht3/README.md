@@ -85,7 +85,7 @@ Humans are most comfortable when they feel in control of themselves and their en
 ## Doordat ik heb gewerkt met een invulveld is het voor de gebruiker gemakkelijk om hier iets in te typen. De header boven het invulveld geeft aan wat je in moet typen en zorgt ervoor dat de gebruiker zo min mogelijk verwarring ervaart.
 
 
-## 09. Appearance follows behavior##
+## 09. Appearance follows behavior
 Humans are most comfortable with things that behave the way we expect. Other people, animals, objects, software. When someone or something behaves consistently with our expectations we feel like we have a good relationship with it. To that end designed elements should look like how they behave. Form follows function. In practice this means that someone should be able to predict how an interface element will behave merely by looking at it. If it looks like a button it should act like a button. Don't get cute with the basics of interaction…keep your creativity for higher order concerns.
 ## Door een reset button toe te voegen reset ik alle ingevulde velden en begint de gebruiker weer bij een blanco veld. Deze button doet precies wat de gebruiker verwacht. 
 Bij mijn eerste test heb ik ook nog gevraagd wat de gebruiker denkt dat de buttons doet en dit was gelijk duidelijk. Ook vielen ze op, dus wist ik dat ik goed zat.
