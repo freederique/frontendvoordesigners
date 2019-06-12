@@ -78,16 +78,19 @@ De test ging heel goed en de buttons waren duidelijk. Lisa (mijn testpersoon) he
 
 
 
-Ik heb ook goed gekeken naar de volgende principles. 
+Ik heb ook de volgende principes toegepast in mijn opdracht:
 
-##04. Keep users in control##
+## 04. Keep users in control
 Humans are most comfortable when they feel in control of themselves and their environment. Thoughtless software takes away that comfort by forcing people into unplanned interactions, confusing pathways, and surprising outcomes. Keep users in control by regularly surfacing system status, by describing causation (if you do this that will happen) and by giving insight into what to expect at every turn. Don't worry about stating the obvious…the obvious almost never is.
+## Doordat ik heb gewerkt met een invulveld is het voor de gebruiker gemakkelijk om hier iets in te typen. De header boven het invulveld geeft aan wat je in moet typen en zorgt ervoor dat de gebruiker zo min mogelijk verwarring ervaart.
 
 
-##09. Appearance follows behavior##
+## 09. Appearance follows behavior##
 Humans are most comfortable with things that behave the way we expect. Other people, animals, objects, software. When someone or something behaves consistently with our expectations we feel like we have a good relationship with it. To that end designed elements should look like how they behave. Form follows function. In practice this means that someone should be able to predict how an interface element will behave merely by looking at it. If it looks like a button it should act like a button. Don't get cute with the basics of interaction…keep your creativity for higher order concerns.
+## Door een reset button toe te voegen reset ik alle ingevulde velden en begint de gebruiker weer bij een blanco veld. Deze button doet precies wat de gebruiker verwacht. 
+Bij mijn eerste test heb ik ook nog gevraagd wat de gebruiker denkt dat de buttons doet en dit was gelijk duidelijk. Ook vielen ze op, dus wist ik dat ik goed zat.
 
-##11. Strong visual hierarchies work best##
+## 11. Strong visual hierarchies work best
 A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. That is, when users view the same items in the same order every time. Weak visual hierarchies give little clue about where to rest one's gaze and end up feeling cluttered and confusing. In environments of great change it is hard to maintain a strong visual hierarchy because visual weight is relative: when everything is bold, nothing is bold. Should a single visually heavy element be added to a screen, the designer may need to reset the visual weight of all elements to once again achieve a strong hierarchy. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design.
-
+## Visueel heb ik bovenaan het scherm gelijk het actieveld geplaatst zodat je oog hier gelijk op springt. 
 
