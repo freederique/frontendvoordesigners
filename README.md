@@ -14,3 +14,8 @@ Het vak bestaat uit 3 opdrachten:
 ---
 - [Markup cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Getting started with GitHub Pages](https://guides.github.com/features/pages/)
+
+
+
+Op het begin 
+<img width="1680" alt="Schermafbeelding 2019-06-12 om 10 15 39 AM" src="https://user-images.githubusercontent.com/49712444/59336560-13e78580-8cff-11e9-96ec-19d45c810771.png">
