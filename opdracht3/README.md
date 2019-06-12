@@ -76,7 +76,4 @@ De test ging heel goed en de buttons waren duidelijk. Lisa (mijn testpersoon) he
 ![IMG_8231](https://user-images.githubusercontent.com/49712444/59338627-ff0cf100-8d02-11e9-8f6e-2d0f7c69ae34.jpeg)
 ![IMG_8232](https://user-images.githubusercontent.com/49712444/59338628-ffa58780-8d02-11e9-97b5-84e6abbe8671.jpeg)
 
-In bovenstaand voorbeeld is te zien hoe mijn resultaten naast elkaar worden weergegeven en er een gehele lijst aan resultaten beschikbaar is in plaats van maar 1 resultaat.
 
-![IMG_8231](https://user-images.githubusercontent.com/49712444/59338627-ff0cf100-8d02-11e9-8f6e-2d0f7c69ae34.jpeg)
-![IMG_8232](https://user-images.githubusercontent.com/49712444/59338628-ffa58780-8d02-11e9-97b5-84e6abbe8671.jpeg)
