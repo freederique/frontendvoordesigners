@@ -60,3 +60,11 @@ De resulaten worden vervolgens in articles gezet en door middel van een flex wra
         section.appendChild(article);
     }
 
+Dit gaf het volgende resultaat weer:
+<img width="1676" alt="Schermafbeelding 2019-06-12 om 10 54 58 AM" src="https://user-images.githubusercontent.com/49712444/59337295-8d33a800-8d00-11e9-8fb9-a30de0e3a690.png">
+
+Door middel van scrollen verschijnen de nieuwe resulaten tevoorschijn.
+<img width="1675" alt="Schermafbeelding 2019-06-12 om 10 56 12 AM" src="https://user-images.githubusercontent.com/49712444/59337360-b94f2900-8d00-11e9-9274-32ff00ed3e73.png">
+
+In bovenstaand voorbeeld is te zien hoe mijn resultaten naast elkaar worden weergegeven en er een gehele lijst aan resultaten beschikbaar is in plaats van maar 1 resultaat.
+
