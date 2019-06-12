@@ -14,6 +14,7 @@ deze uri kun je gebruiken voor een van de use case voor opdracht 3.
 De JSON data is ook los, per film of genre of actors te gebruiken. Check die [hier](https://github.com/KoopReynders/frontendvoordesigners/tree/master/opdracht3/json).
 
 Dit is een voorbeeld van het laden van de film data:
+
 [Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/v1/)
 
 
@@ -25,6 +26,7 @@ In mijn eerste poging die ik heb gemaakt was het mogelijk om een film in te type
 ![Uploading Schermafbeelding 2019-06-12 om 10.15.52 AM.png…]()
 
 Dit zag er als volgt uit:
+
 <img width="1680" alt="Schermafbeelding 2019-06-12 om 10 15 46 AM" src="https://user-images.githubusercontent.com/49712444/59337003-ee0eb080-8cff-11e9-8b89-a3aedafd42bb.png">
 <img width="1680" alt="Schermafbeelding 2019-06-12 om 10 15 52 AM" src="https://user-images.githubusercontent.com/49712444/59337004-ee0eb080-8cff-11e9-94d5-b4004781f095.png">
 
@@ -61,9 +63,11 @@ De resulaten worden vervolgens in articles gezet en door middel van een flex wra
     }
 
 Dit gaf het volgende resultaat weer:
+
 <img width="1676" alt="Schermafbeelding 2019-06-12 om 10 54 58 AM" src="https://user-images.githubusercontent.com/49712444/59337295-8d33a800-8d00-11e9-8fb9-a30de0e3a690.png">
 
 Door middel van scrollen verschijnen de nieuwe resulaten tevoorschijn.
+
 <img width="1675" alt="Schermafbeelding 2019-06-12 om 10 56 12 AM" src="https://user-images.githubusercontent.com/49712444/59337360-b94f2900-8d00-11e9-9274-32ff00ed3e73.png">
 
 In bovenstaand voorbeeld is te zien hoe mijn resultaten naast elkaar worden weergegeven en er een gehele lijst aan resultaten beschikbaar is in plaats van maar 1 resultaat.
