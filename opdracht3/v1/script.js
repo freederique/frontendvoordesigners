@@ -5,7 +5,7 @@ function zoeken() {
     var tietel = document.querySelector("#t").value;
     var jaar = document.querySelector("#y").value;
     //console.log('www.omdbapi.com/?apikey=8f5b4526&t=' + tietel);
-    var uri = 'https://www.omdbapi.com/?apikey=8f5b4526&t=' + tietel + '&y=' + jaar;
+    var uri = 'https://www.omdbapi.com/?apikey=8f5b4526&s=' + tietel + '&y=' + jaar;
     console.log(uri);
 
     var request = new XMLHttpRequest();
@@ -31,38 +31,37 @@ function showData(jsonObj) {
 
     console.log("showData films", films);
 
-    //https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
-
-    var filmtitel = document.createElement('h2');
-    filmtitel.textContent = films.Title;
-
-    var filmjaar = document.createElement('p');
-    filmjaar.textContent = films.Year;
-
-    var filmgenre = document.createElement('p');
-    filmgenre.textContent = films.Genre;
-
-    var director = document.createElement('p');
-    director.textContent = films.director;
-
-    var filmtaal = document.createElement('p');
-    filmtaal.textContent = films.Language;
+    for (var i = 0; i < films.totalResults; i++) {
 
 
+        var article = document.createElement('article');
 
-    var filmposter = document.createElement('img');
-    filmposter.setAttribute("src", films.Poster);
+        var filmposter = document.createElement('img');
+        filmposter.setAttribute("src", films.Search[i].Poster);
+
+        var filmtitel = document.createElement('h2');
+        filmtitel.textContent = films.Search[i].Title;
+
+        var filmtype = document.createElement('p');
+        filmtype.textContent = films.Search[i].Type;
+
+        var filmjaar = document.createElement('p');
+        filmjaar.textContent = films.Search[i].Year;
 
 
-    section.appendChild(filmtitel);
-    section.appendChild(filmjaar);
-    section.appendChild(filmgenre);
-    section.appendChild(filmtaal);
-    section.appendChild(director);
-    section.appendChild(filmposter);
+        article.appendChild(filmposter);
+        article.appendChild(filmtitel);
+        article.appendChild(filmtype);
+        article.appendChild(filmjaar);
+        section.appendChild(article);
+    }
 }
+
 
 
 function reset() {
     location.reload();
 }
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
