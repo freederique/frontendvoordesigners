@@ -68,5 +68,15 @@ Dit gaf het volgende resultaat weer:
 
 <img width="1675" alt="Schermafbeelding 2019-06-12 om 10 56 12 AM" src="https://user-images.githubusercontent.com/49712444/59337360-b94f2900-8d00-11e9-9274-32ff00ed3e73.png">
 
+
+Hierna heb ik mijn eerste test gedaan.
+Ik heb als opdracht gegeven om een film op te zoeken en daarna de zoekresultaten weg te halen.
+De test ging heel goed en de buttons waren duidelijk. Lisa (mijn testpersoon) heeft een film kunnen opzoeken en vervolgens voordat ik ietse zei had ze alweer op de reset button geklikt en een nieuwe zoekopdracht ingevuld.
+
+![IMG_8231](https://user-images.githubusercontent.com/49712444/59338627-ff0cf100-8d02-11e9-8f6e-2d0f7c69ae34.jpeg)
+![IMG_8232](https://user-images.githubusercontent.com/49712444/59338628-ffa58780-8d02-11e9-97b5-84e6abbe8671.jpeg)
+
 In bovenstaand voorbeeld is te zien hoe mijn resultaten naast elkaar worden weergegeven en er een gehele lijst aan resultaten beschikbaar is in plaats van maar 1 resultaat.
 
+![IMG_8231](https://user-images.githubusercontent.com/49712444/59338627-ff0cf100-8d02-11e9-8f6e-2d0f7c69ae34.jpeg)
+![IMG_8232](https://user-images.githubusercontent.com/49712444/59338628-ffa58780-8d02-11e9-97b5-84e6abbe8671.jpeg)
