@@ -18,7 +18,7 @@ img {
 }
 
 header {
-    background-color: #C9C9C9;
+    background-color: cadetblue;
 }
 
 form {
@@ -32,6 +32,7 @@ legend {
 
 input {
     padding: 1em;
+    border-radius: 1em;
 }
 
 label {
@@ -39,23 +40,28 @@ label {
 }
 
 #search-by-title-reset {
-    background-color: darkblue;
+    background-color: black;
+    border: 0px;
     color: white;
-    border-radius: 2em;
-    padding: 1em;
+    font-size: 1em;
+    border-radius: 1em;
+    padding: 0.7em;
 }
 
 #search-by-title-button {
-    background-color: lightblue;
-    border-radius: 2em;
-    padding: 1em;
+    background-color: darkblue;
+    border: 0px;
+    color: white;
+    font-size: 1em;
+    border-radius: 1em;
+    padding: 0.7em;
 }
 
 section {
     display: flex;
     flex-wrap: wrap;
-    padding: 2em;
-    margin: 2em;
+    padding: 1em;
+    margin: 1em;
 }
 
 article {

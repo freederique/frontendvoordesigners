@@ -1,5 +1,14 @@
+// bij click gebeurd er wat
 document.querySelector('#search-by-title-button').addEventListener("click", zoeken);
 document.querySelector('#search-by-title-reset').addEventListener("click", reset);
+
+
+// functie zoeken aangemaakt,
+//t is titel en daar zoekt hij naar films
+//y is yaar en dan zoekt hij naar het jaartal
+// hij haalt het uit de bron die vermeld staat, dat is een online database van json.
+
+// bij de request worden de gegevens geladen.
 
 function zoeken() {
     var tietel = document.querySelector("#t").value;
@@ -24,17 +33,21 @@ function zoeken() {
 }
 
 
-
+// hier voert hij de function uit
 function showData(jsonObj) {
     var films = jsonObj;
     var section = document.querySelector('section');
 
     console.log("showData films", films);
 
+    // hier komen meer resultaten tevoorschijn, dus niet eentje.
     for (var i = 0; i < films.totalResults; i++) {
 
 
+        // article geeft aan dat alles in 1 article moet staan
         var article = document.createElement('article');
+
+        // gegevens die op worden gehaald, je maakt een img aan, en vervolgens haalt hij de poster op zodat die in de img komt
 
         var filmposter = document.createElement('img');
         filmposter.setAttribute("src", films.Search[i].Poster);
@@ -49,6 +62,7 @@ function showData(jsonObj) {
         filmjaar.textContent = films.Search[i].Year;
 
 
+        // puur voor volgorde
         article.appendChild(filmtitel);
         article.appendChild(filmtype);
         article.appendChild(filmjaar);
@@ -57,11 +71,29 @@ function showData(jsonObj) {
     }
 }
 
+//Broncode: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 
 
+
+
+//zorgt ervoor dat de function wordt reset
 function reset() {
     location.reload();
 }
 
 
-//https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+
+
+// Ervoor gezorgd dat er met enter gezocht kan worden
+
+var input = document.getElementById("search-by-title-button");
+
+input.addEventListener("keyup", function (event) {
+
+    if (event.keyCode === 13) {
+
+        event.preventDefault();
+
+        document.getElementById("search-by-title-button").click();
+    }
+});
