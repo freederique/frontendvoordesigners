@@ -24,7 +24,7 @@ function zoeken() {
 
     request.addEventListener("load", function () {
         showData(request.response);
-        //console.log("request is geladen: ", request.response);
+        //console.log("request is geladen:", request.response);
         //er is data
         //nu kun je iets doen zoals de json echo'en
         //section.textContent = JSON.stringify(data);
