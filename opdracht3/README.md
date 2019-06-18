@@ -78,6 +78,29 @@ De test ging heel goed en de buttons waren duidelijk. Lisa (mijn testpersoon) he
 
 
 
+Ik heb nog gezeten met Marc. Marc is een tweedejaars student die als keuzevak Tech heeft gekozen. Ik heb hem mijn ontwerp laten testen omdat ik wilde zien of het voor hem duidelijk was wat ik voor ogen had.
+
+![IMG_8281](https://user-images.githubusercontent.com/49712444/59669506-a9c95780-91ba-11e9-85fb-1accd47dc0c6.jpeg)
+![IMG_8282](https://user-images.githubusercontent.com/49712444/59669507-a9c95780-91ba-11e9-8d1b-ac26b036db53.jpeg)
+
+Marc snapte goed wat ik bedoelde en gaf aan als tip dat het mooi zou zijn als je met je enter een zoekopdracht kunt maken. Dit wil zeggen dat je dus zodra je op enter klikt de 'zoek' button activeert.
+Deze code heb ik nog toegevoegd in mijn javascript. Nu heb ik een werkend UI Event.
+
+var input = document.getElementById("search-by-title-button");
+
+
+
+    if (event.keyCode === 13) {
+
+        event.preventDefault();
+
+        document.getElementById("search-by-title-button").click();
+    }
+
+
+
+
+
 Ik heb ook de volgende principes toegepast in mijn opdracht:
 
 ## 04. Keep users in control
@@ -93,4 +116,7 @@ Bij mijn eerste test heb ik ook nog gevraagd wat de gebruiker denkt dat de butto
 ## 11. Strong visual hierarchies work best
 A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. That is, when users view the same items in the same order every time. Weak visual hierarchies give little clue about where to rest one's gaze and end up feeling cluttered and confusing. In environments of great change it is hard to maintain a strong visual hierarchy because visual weight is relative: when everything is bold, nothing is bold. Should a single visually heavy element be added to a screen, the designer may need to reset the visual weight of all elements to once again achieve a strong hierarchy. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design.
 ## Visueel heb ik bovenaan het scherm gelijk het actieveld geplaatst zodat je oog hier gelijk op springt. 
+
+
+
 
